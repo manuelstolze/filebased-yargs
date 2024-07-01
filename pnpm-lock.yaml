@@ -5,12 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@manuelstolze/prettier-config':
+    specifier: ^1.0.1
+    version: 1.0.1
   js-yaml:
     specifier: ^4.1.0
     version: 4.1.0
-  manuelstolze-prettier-config:
-    specifier: 1.0.0
-    version: 1.0.0
   yargs:
     specifier: ^17.7.2
     version: 17.7.2
@@ -21,6 +21,10 @@ devDependencies:
     version: 2.8.8
 
 packages:
+
+  /@manuelstolze/prettier-config@1.0.1:
+    resolution: {integrity: sha512-6UtA2X+T9Q96Syad5ZefjwB1Mcd/nbT4ECAsErS9l/C5hH/HA7ChI0nn8V2DO/E/vNXetJloyxcNUtLRnZ9tig==}
+    dev: false
 
   /ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -82,10 +86,6 @@ packages:
     hasBin: true
     dependencies:
       argparse: 2.0.1
-    dev: false
-
-  /manuelstolze-prettier-config@1.0.0:
-    resolution: {integrity: sha512-euUON2Jy6X+tF1XQjb0aNHiOAt0ECHEgDqN62hW9XW0BJ+w0LF+e1oIzZqKYLAaAZkzPyBU7GzVikmHAUl/rVA==}
     dev: false
 
   /prettier@2.8.8:
