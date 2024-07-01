@@ -1,0 +1,8 @@
+test-parameter:
+  description: "The first parameter for this example"
+  type: "string"
+  alias: "f"
+another-parameter:
+  description: "The second parameter"
+  type: "string"
+  alias: "s"
