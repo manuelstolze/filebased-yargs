@@ -78,6 +78,6 @@ The `YargsLoader` class also supports a `help` parameter that can be used to pri
 node index.js --help
 ```
 
-This leads to the following output:
+This will lead to the following output:
 
 ![Screenshot of the help message](./docs/images/help-message.png)
